@@ -3,7 +3,23 @@ POST http://localhost:9000/api/users HTTP/1.1
 Content-Type: application/json
 
 {
-    "name": "Diego Caceres",
-    "age" : 32,
-    "email": "diec.cas19@gmail.com"
+    "name": "Samuel Caceres",
+    "age" : 9,
+    "email": "jesusteama.91@gmail.com"
+}
+
+###
+GET http://localhost:9000/api/users HTTP/1.1
+
+###
+GET http://localhost:9000/api/users/645d73ec861619340a75a9ac HTTP/1.1
+
+###
+PUT http://localhost:9000/api/645d73ec861619340a75a9ac HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Emanuel Caceres",
+    "age" : 2,
+    "email": "jesusteama.91@gmail.com"
 }
