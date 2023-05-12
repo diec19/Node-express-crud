@@ -15,7 +15,7 @@ GET http://localhost:9000/api/users HTTP/1.1
 GET http://localhost:9000/api/users/645d73ec861619340a75a9ac HTTP/1.1
 
 ###
-PUT http://localhost:9000/api/645d73ec861619340a75a9ac HTTP/1.1
+PUT http://localhost:9000/api/users/645d73ec861619340a75a9ac HTTP/1.1
 Content-Type: application/json
 
 {
@@ -23,3 +23,6 @@ Content-Type: application/json
     "age" : 2,
     "email": "jesusteama.91@gmail.com"
 }
+
+###
+DELETE http://localhost:9000/api/users/645d754f7c66adf96afc73eb HTTP/1.1
